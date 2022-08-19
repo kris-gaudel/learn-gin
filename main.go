@@ -2,7 +2,7 @@ package main
 
 import (
     "net/http"
-	"strconv"
+    "strconv"
 
     "github.com/gin-gonic/gin"
 )
@@ -15,7 +15,7 @@ type student struct {
 }
 
 var class = []student {
-	{ID: 123, Name: "Kris Gaudel", Program: "CSBBA", GPA: 4.0},
+    {ID: 123, Name: "Kris Gaudel", Program: "CSBBA", GPA: 4.0},
     {ID: 233, Name: "Prasad Sharma", Program: "ECE", GPA: 2.9},
     {ID: 233, Name: "Hasan Khan", Program: "BBA", GPA: 3.4},
 }
